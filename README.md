@@ -1,3 +1,33 @@
+# yoldas Renderer
+
+the name bonsly is from the name of the group I was in during the course.
+
+# What is the purpose of this
+This renderer will be extended for my bachelor thesis at UDS
+
+## My plans for the thesis
+spectral rendering (offline)
+- do spectral uplifting at the camera
+- will not be as "pretty" as doing a full on spectral render
+- but will be faster and cheaper
+- probably is not that necessary to do
+- but will still do it
+
+## extra added features on top of the course
+alpha masking, halton sampler, intel open image denoising, shading normals, thinlens camera, rough dielectric
+
+
+# Contributors
+
+Me(Tolga Onay), Yun-Jhu Wang(Teammate during the course)
+
+
+
+Below is the readme from the course
+
+
+
+
 # lightwave
 
 Welcome to _lightwave_, an educational framework for writing ray tracers that can render photo-realistic images!
