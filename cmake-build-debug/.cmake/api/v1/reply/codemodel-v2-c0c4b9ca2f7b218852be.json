@@ -1,0 +1,129 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "deps/miniz",
+					"jsonFile" : "directory-deps.miniz-Debug-e4ef09a7e2f414af55b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "deps/miniz",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "blender_exporter",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-blender_exporter-Debug-266a32ca45fa30772609.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "blender_exporter",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "lightwave",
+					"targetIndexes" : 
+					[
+						0,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "miniz",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "lightwave_blender::@a5b9dd63f3ed4f7e77d1",
+					"jsonFile" : "target-lightwave_blender-Debug-b51a4eb9e0f202cb27f5.json",
+					"name" : "lightwave_blender",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "miniz::@eae18536e793f51aa380",
+					"jsonFile" : "target-miniz-Debug-95eec92ba274b9168590.json",
+					"name" : "miniz",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yoldas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yoldas-Debug-d37866ae08ccdd6dd4bd.json",
+					"name" : "yoldas",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/nicole/bonsly/cmake-build-debug",
+		"source" : "/Users/nicole/bonsly"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

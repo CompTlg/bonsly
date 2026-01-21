@@ -1,0 +1,535 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/Users/tolga/Documents/CG/bonsly/deps/catch2/catch_amalgamated.cpp",
+			"paths" : 
+			[
+				"/Users/tolga/Documents/CG/bonsly/deps/catch2/catch_amalgamated.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/Users/tolga/Documents/CG/bonsly/include/*.hpp",
+			"paths" : 
+			[
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/bsdf.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/camera.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/color.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/core.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/emission.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/hash.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/image.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/instance.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/integrator.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/iterators.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/light.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/logger.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/math.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/parallel.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/postprocess.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/profiler.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/properties.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/registry.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/sampler.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/scene.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/shape.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/streaming.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/test.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/texture.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/transform.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/lightwave/warp.hpp",
+				"/Users/tolga/Documents/CG/bonsly/include/oidn-2.3.2.arm64.macos/include/OpenImageDenoise/oidn.hpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/Users/tolga/Documents/CG/bonsly/src/**/*.cpp",
+			"paths" : 
+			[
+				"/Users/tolga/Documents/CG/bonsly/src/bsdfs/conductor.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/bsdfs/dielectric.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/bsdfs/diffuse.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/bsdfs/principled.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/bsdfs/roughconductor.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/bsdfs/roughdielectric.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/cameras/perspective.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/cameras/thinlens.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/camera.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/core.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/image.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/instance.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/integrator.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/logger.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/main.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/math.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/parser.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/plyparser.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/profiler.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/properties.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/registry.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/scene.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/stb.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/streaming.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/tinyexr.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/transform.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/xml.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/emissions/lambertian.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/integrators/albedo.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/integrators/aov.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/integrators/camera.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/integrators/direct.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/integrators/normal.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/integrators/pathtracer.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/lights/area.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/lights/directional.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/lights/envmap.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/lights/point.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/postprocessing/denoising.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/samplers/halton.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/samplers/independent.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/shapes/group.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/shapes/mesh.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/shapes/rectangle.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/shapes/sphere.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/tests/image.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/textures/checkerboard.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/textures/constant.cpp",
+				"/Users/tolga/Documents/CG/bonsly/src/textures/image.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/Users/tolga/Documents/CG/bonsly/src/**/*.hpp",
+			"paths" : 
+			[
+				"/Users/tolga/Documents/CG/bonsly/src/bsdfs/fresnel.hpp",
+				"/Users/tolga/Documents/CG/bonsly/src/bsdfs/microfacet.hpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/parser.hpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/plyparser.hpp",
+				"/Users/tolga/Documents/CG/bonsly/src/core/xml.hpp",
+				"/Users/tolga/Documents/CG/bonsly/src/shapes/accel.hpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/Users/tolga/Documents/CG/bonsly/unittests/**/*.cpp",
+			"paths" : 
+			[
+				"/Users/tolga/Documents/CG/bonsly/unittests/core/math.cpp",
+				"/Users/tolga/Documents/CG/bonsly/unittests/shapes/rectangle.cpp"
+			],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.6/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake"
+		},
+		{
+			"path" : "cmake/SetupWarnings.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"path" : "cmake/SetupFlags.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"path" : "cmake/SetupLTO.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckIPOSupported.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckIPOSupported/CMakeLists-CXX.txt.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckIPOSupported/foo.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckIPOSupported/main.cpp"
+		},
+		{
+			"path" : "cmake/SetupSanitizers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"path" : "cmake/SetupChecks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/OpenImageDenoise-2.3.2/OpenImageDenoiseConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/OpenImageDenoise-2.3.2/OpenImageDenoiseConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/OpenImageDenoise-2.3.2/OpenImageDenoiseTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/opt/homebrew/lib/cmake/OpenImageDenoise-2.3.2/OpenImageDenoiseTargets-release.cmake"
+		},
+		{
+			"path" : "deps/miniz/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.31.6/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/GenerateExportHeader.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/exportheader.cmake.in"
+		},
+		{
+			"path" : "deps/miniz/miniz.pc.in"
+		},
+		{
+			"path" : "blender_exporter/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/tolga/Documents/CG/bonsly/build",
+		"source" : "/Users/tolga/Documents/CG/bonsly"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

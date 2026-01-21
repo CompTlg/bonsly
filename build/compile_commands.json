@@ -1,0 +1,338 @@
+[
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/deps/catch2/catch_amalgamated.cpp.o -c /Users/tolga/Documents/CG/bonsly/deps/catch2/catch_amalgamated.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/deps/catch2/catch_amalgamated.cpp",
+  "output": "CMakeFiles/yoldas.dir/deps/catch2/catch_amalgamated.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/bsdfs/conductor.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/bsdfs/conductor.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/bsdfs/conductor.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/bsdfs/conductor.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/bsdfs/dielectric.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/bsdfs/dielectric.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/bsdfs/dielectric.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/bsdfs/dielectric.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/bsdfs/diffuse.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/bsdfs/diffuse.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/bsdfs/diffuse.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/bsdfs/diffuse.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/bsdfs/principled.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/bsdfs/principled.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/bsdfs/principled.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/bsdfs/principled.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/bsdfs/roughconductor.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/bsdfs/roughconductor.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/bsdfs/roughconductor.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/bsdfs/roughconductor.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/bsdfs/roughdielectric.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/bsdfs/roughdielectric.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/bsdfs/roughdielectric.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/bsdfs/roughdielectric.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/cameras/perspective.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/cameras/perspective.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/cameras/perspective.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/cameras/perspective.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/cameras/thinlens.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/cameras/thinlens.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/cameras/thinlens.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/cameras/thinlens.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/camera.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/camera.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/camera.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/camera.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/core.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/core.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/core.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/core.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/image.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/image.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/image.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/image.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/instance.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/instance.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/instance.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/instance.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/integrator.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/integrator.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/integrator.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/integrator.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/logger.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/logger.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/logger.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/logger.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/main.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/main.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/main.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/main.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/math.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/math.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/math.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/math.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/parser.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/parser.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/parser.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/parser.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/plyparser.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/plyparser.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/plyparser.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/plyparser.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/profiler.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/profiler.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/profiler.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/profiler.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/properties.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/properties.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/properties.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/properties.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/registry.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/registry.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/registry.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/registry.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/scene.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/scene.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/scene.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/scene.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/stb.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/stb.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/stb.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/stb.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/streaming.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/streaming.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/streaming.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/streaming.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/tinyexr.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/tinyexr.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/tinyexr.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/tinyexr.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/transform.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/transform.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/transform.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/transform.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/core/xml.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/core/xml.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/core/xml.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/core/xml.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/emissions/lambertian.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/emissions/lambertian.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/emissions/lambertian.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/emissions/lambertian.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/integrators/albedo.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/integrators/albedo.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/integrators/albedo.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/integrators/albedo.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/integrators/aov.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/integrators/aov.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/integrators/aov.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/integrators/aov.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/integrators/camera.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/integrators/camera.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/integrators/camera.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/integrators/camera.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/integrators/direct.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/integrators/direct.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/integrators/direct.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/integrators/direct.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/integrators/normal.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/integrators/normal.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/integrators/normal.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/integrators/normal.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/integrators/pathtracer.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/integrators/pathtracer.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/integrators/pathtracer.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/integrators/pathtracer.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/lights/area.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/lights/area.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/lights/area.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/lights/area.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/lights/directional.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/lights/directional.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/lights/directional.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/lights/directional.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/lights/envmap.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/lights/envmap.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/lights/envmap.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/lights/envmap.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/lights/point.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/lights/point.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/lights/point.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/lights/point.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/postprocessing/denoising.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/postprocessing/denoising.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/postprocessing/denoising.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/postprocessing/denoising.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/samplers/halton.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/samplers/halton.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/samplers/halton.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/samplers/halton.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/samplers/independent.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/samplers/independent.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/samplers/independent.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/samplers/independent.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/shapes/group.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/shapes/group.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/shapes/group.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/shapes/group.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/shapes/mesh.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/shapes/mesh.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/shapes/mesh.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/shapes/mesh.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/shapes/rectangle.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/shapes/rectangle.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/shapes/rectangle.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/shapes/rectangle.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/shapes/sphere.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/shapes/sphere.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/shapes/sphere.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/shapes/sphere.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/tests/image.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/tests/image.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/tests/image.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/tests/image.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/textures/checkerboard.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/textures/checkerboard.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/textures/checkerboard.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/textures/checkerboard.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/textures/constant.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/textures/constant.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/textures/constant.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/textures/constant.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/src/textures/image.cpp.o -c /Users/tolga/Documents/CG/bonsly/src/textures/image.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/src/textures/image.cpp",
+  "output": "CMakeFiles/yoldas.dir/src/textures/image.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/unittests/core/math.cpp.o -c /Users/tolga/Documents/CG/bonsly/unittests/core/math.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/unittests/core/math.cpp",
+  "output": "CMakeFiles/yoldas.dir/unittests/core/math.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build",
+  "command": "/usr/bin/clang++ -DCATCH_AMALGAMATED_CUSTOM_MAIN -DLW_DEBUG -DLW_WITH_OIDN -DMINIZ_STATIC_DEFINE -I/Users/tolga/Documents/CG/bonsly/deps/catch2 -I/Users/tolga/Documents/CG/bonsly/deps/tinyexr -I/Users/tolga/Documents/CG/bonsly/deps/stb -I/Users/tolga/Documents/CG/bonsly/deps/tinyformat -I/Users/tolga/Documents/CG/bonsly/deps/ctpl -I/Users/tolga/Documents/CG/bonsly/src -I/Users/tolga/Documents/CG/bonsly/include -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz -isystem /opt/homebrew/include -g -Og -std=gnu++20 -arch arm64 -Wall -Wextra -pedantic -Wno-unused-parameter -Wno-unused-function -Wno-psabi -funsafe-math-optimizations -fno-rounding-math -fno-math-errno -o CMakeFiles/yoldas.dir/unittests/shapes/rectangle.cpp.o -c /Users/tolga/Documents/CG/bonsly/unittests/shapes/rectangle.cpp",
+  "file": "/Users/tolga/Documents/CG/bonsly/unittests/shapes/rectangle.cpp",
+  "output": "CMakeFiles/yoldas.dir/unittests/shapes/rectangle.cpp.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build/deps/miniz",
+  "command": "/usr/bin/clang  -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz  -Wshadow -Wformat=2 -Wall -Wno-overlength-strings -pedantic -g -std=gnu90 -arch arm64 -o CMakeFiles/miniz.dir/miniz.c.o -c /Users/tolga/Documents/CG/bonsly/deps/miniz/miniz.c",
+  "file": "/Users/tolga/Documents/CG/bonsly/deps/miniz/miniz.c",
+  "output": "deps/miniz/CMakeFiles/miniz.dir/miniz.c.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build/deps/miniz",
+  "command": "/usr/bin/clang  -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz  -Wshadow -Wformat=2 -Wall -Wno-overlength-strings -pedantic -g -std=gnu90 -arch arm64 -o CMakeFiles/miniz.dir/miniz_zip.c.o -c /Users/tolga/Documents/CG/bonsly/deps/miniz/miniz_zip.c",
+  "file": "/Users/tolga/Documents/CG/bonsly/deps/miniz/miniz_zip.c",
+  "output": "deps/miniz/CMakeFiles/miniz.dir/miniz_zip.c.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build/deps/miniz",
+  "command": "/usr/bin/clang  -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz  -Wshadow -Wformat=2 -Wall -Wno-overlength-strings -pedantic -g -std=gnu90 -arch arm64 -o CMakeFiles/miniz.dir/miniz_tinfl.c.o -c /Users/tolga/Documents/CG/bonsly/deps/miniz/miniz_tinfl.c",
+  "file": "/Users/tolga/Documents/CG/bonsly/deps/miniz/miniz_tinfl.c",
+  "output": "deps/miniz/CMakeFiles/miniz.dir/miniz_tinfl.c.o"
+},
+{
+  "directory": "/Users/tolga/Documents/CG/bonsly/build/deps/miniz",
+  "command": "/usr/bin/clang  -I/Users/tolga/Documents/CG/bonsly/deps/miniz -I/Users/tolga/Documents/CG/bonsly/build/deps/miniz  -Wshadow -Wformat=2 -Wall -Wno-overlength-strings -pedantic -g -std=gnu90 -arch arm64 -o CMakeFiles/miniz.dir/miniz_tdef.c.o -c /Users/tolga/Documents/CG/bonsly/deps/miniz/miniz_tdef.c",
+  "file": "/Users/tolga/Documents/CG/bonsly/deps/miniz/miniz_tdef.c",
+  "output": "deps/miniz/CMakeFiles/miniz.dir/miniz_tdef.c.o"
+}
+]
