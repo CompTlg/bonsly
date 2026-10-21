@@ -1,0 +1,51 @@
+<scene version="3.0.0">
+    <integrator type="path">
+        <integer name="max_depth" value="2"/>
+    </integrator>
+
+    <sensor type="perspective">
+        <string name="fov_axis" value="x"/>
+        <float name="fov" value="40"/>
+        <transform name="to_world">
+            <!-- Mitsuba's camera axes are mirrored vs lightwave's -->
+            <scale x="-1" y="-1"/>
+            <translate z="-4"/>
+        </transform>
+        <sampler type="independent">
+            <integer name="sample_count" value="4096"/>
+        </sampler>
+        <film type="hdrfilm">
+            <integer name="width" value="256"/>
+            <integer name="height" value="256"/>
+            <string name="pixel_format" value="rgb"/>
+            <rfilter type="box"/>
+        </film>
+    </sensor>
+
+    <shape type="rectangle">
+        <bsdf type="diffuse"><rgb name="reflectance" value="0.8,0.8,0.8"/></bsdf>
+        <transform name="to_world">
+            <scale value="4"/>
+            <rotate x="1" y="0" z="0" angle="90"/>
+            <translate y="1"/>
+        </transform>
+    </shape>
+
+    <!-- occluder -->
+    <shape type="sphere">
+        <bsdf type="diffuse"><rgb name="reflectance" value="0.7,0.7,0.7"/></bsdf>
+        <transform name="to_world">
+            <scale value="0.35"/>
+            <translate x="0.1" y="-0.1" z="0.5"/>
+        </transform>
+    </shape>
+
+    <!-- sphere light, radius 0.5 -->
+    <shape type="sphere">
+        <emitter type="area"><rgb name="radiance" value="20,20,20"/></emitter>
+        <transform name="to_world">
+            <scale value="0.5"/>
+            <translate x="-0.4" y="-2.6" z="0.6"/>
+        </transform>
+    </shape>
+</scene>

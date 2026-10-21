@@ -1,0 +1,92 @@
+<!--
+  AREA LIGHT TEST 1: rectangle lights (reference: Mitsuba, see mitsuba_scenes/)
+
+  Direct light only (depth=2), floor + back wall, two rectangle lights that
+  are outside the camera frustum (so "invisible in ours" == "not seen in the
+  reference" and the images are comparable everywhere).
+
+    light A : tilted 25 degrees, NON-uniformly scaled (1.2 x 0.6), faces the floor
+    light B : faces UP (away from the floor), brighter -- must contribute nothing
+
+  What each kind of bug looks like (run tests/area_lights/mitsuba_scenes/analyze.py):
+    * whole image too bright/dark by a constant factor
+        -> area pdf not rescaled by the instance transform (expect ratio 1/0.18 = 5.6x too bright)
+    * ratio drifts with distance from the light
+        -> missing/wrong 1/d^2 (distance squared vs distance)
+    * ratio drifts across the image, floor and wall disagree
+        -> missing cos(theta) at the light or at the receiving surface
+    * image too bright with a "second light" look
+        -> back-face of light B emits (cos<0 not rejected, or abs(cos) used)
+    * image black
+        -> light facing the wrong way / canBeIntersected() true / not registered
+-->
+<test type="image" id="arealight_rect" mae="0.02" me="0.004">
+    <integrator type="pathtracer" depth="2">
+        <scene id="scene">
+            <camera type="perspective" id="camera">
+                <integer name="width" value="256"/>
+                <integer name="height" value="256"/>
+                <string name="fovAxis" value="x"/>
+                <float name="fov" value="40"/>
+                <transform>
+                    <translate z="-4"/>
+                </transform>
+            </camera>
+
+            <instance id="floor">
+                <shape type="rectangle"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.8"/>
+                </bsdf>
+                <transform>
+                    <scale value="4"/>
+                    <rotate axis="1,0,0" angle="90"/>
+                    <translate y="1"/>
+                </transform>
+            </instance>
+
+            <instance id="back wall">
+                <shape type="rectangle"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.6"/>
+                </bsdf>
+                <transform>
+                    <scale x="4" y="4" z="-1"/>
+                    <translate z="3"/>
+                </transform>
+            </instance>
+
+            <!-- light A: tilted, non-uniformly scaled -->
+            <light type="area">
+                <instance>
+                    <shape type="rectangle"/>
+                    <emission type="lambertian">
+                        <texture name="emission" type="constant" value="20"/>
+                    </emission>
+                    <transform>
+                        <scale x="0.6" y="0.3"/>
+                        <rotate axis="1,0,0" angle="-90"/>
+                        <rotate axis="0,0,1" angle="25"/>
+                        <translate x="0.5" y="-2.2" z="0.2"/>
+                    </transform>
+                </instance>
+            </light>
+
+            <!-- light B: decoy facing away from the scene, must add nothing -->
+            <light type="area">
+                <instance>
+                    <shape type="rectangle"/>
+                    <emission type="lambertian">
+                        <texture name="emission" type="constant" value="30"/>
+                    </emission>
+                    <transform>
+                        <scale value="0.4"/>
+                        <rotate axis="1,0,0" angle="90"/>
+                        <translate x="-1.0" y="-2.6" z="0.3"/>
+                    </transform>
+                </instance>
+            </light>
+        </scene>
+        <sampler type="independent" count="256"/>
+    </integrator>
+</test>

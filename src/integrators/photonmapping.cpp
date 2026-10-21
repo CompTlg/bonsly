@@ -14,6 +14,17 @@ namespace lightwave
             // NOT_IMPLEMENTED
             return Color::black();
         }
+
+        std::string toString() const override
+        {
+            return tfm::format(
+                "Photonmapping[\n"
+                "  sampler = %s,\n"
+                "  image = %s,\n"
+                "]",
+                indent(m_sampler),
+                indent(m_image));
+        }
     };
 } // namespace lightwave
 REGISTER_INTEGRATOR(Photonmapping, "photonmapping")

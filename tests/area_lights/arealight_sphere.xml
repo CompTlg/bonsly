@@ -1,0 +1,74 @@
+<!--
+  AREA LIGHT TEST 2: sphere light + shadow (reference: Mitsuba, see mitsuba_scenes/)
+
+  Direct light only (depth=2). One uniformly scaled sphere light (radius 0.5,
+  outside the camera frustum) above a floor, and a floating occluder sphere
+  that casts a shadow onto the floor.
+
+  Bug signatures (run tests/area_lights/mitsuba_scenes/analyze.py):
+    * whole image a constant 4x too bright
+        -> sphere pdf is 1/(4*pi) in object space; scale 0.5 shrinks the area by
+           0.25 and the pdf must be rescaled by it (same bug family as the rect test)
+    * shadow missing / too light / floor speckled with dark dots ("acne")
+        -> shadow ray uses the wrong distance (should stop just before the light
+           point) or hits the surface it starts on
+    * overall too dark by ~2x, or noisy bright speckle
+        -> far (back) half of the sphere light is sampled: those points face away
+           from the receiver and must give 0 (cos<0), not abs(cos)
+    * occluder sphere lit from below
+        -> shading-normal / orientation error on the sphere
+-->
+<test type="image" id="arealight_sphere" mae="0.02" me="0.004">
+    <integrator type="pathtracer" depth="2">
+        <scene id="scene">
+            <camera type="perspective" id="camera">
+                <integer name="width" value="256"/>
+                <integer name="height" value="256"/>
+                <string name="fovAxis" value="x"/>
+                <float name="fov" value="40"/>
+                <transform>
+                    <translate z="-4"/>
+                </transform>
+            </camera>
+
+            <instance id="floor">
+                <shape type="rectangle"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.8"/>
+                </bsdf>
+                <transform>
+                    <scale value="4"/>
+                    <rotate axis="1,0,0" angle="90"/>
+                    <translate y="1"/>
+                </transform>
+            </instance>
+
+            <!-- occluder: casts the shadow onto the floor -->
+            <instance id="occluder">
+                <shape type="sphere"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.7"/>
+                </bsdf>
+                <transform>
+                    <scale value="0.35"/>
+                    <translate x="0.1" y="-0.1" z="0.5"/>
+                </transform>
+            </instance>
+
+            <!-- sphere light, radius 0.5 -->
+            <light type="area">
+                <instance>
+                    <shape type="sphere"/>
+                    <emission type="lambertian">
+                        <texture name="emission" type="constant" value="20"/>
+                    </emission>
+                    <transform>
+                        <scale value="0.5"/>
+                        <translate x="-0.4" y="-2.6" z="0.6"/>
+                    </transform>
+                </instance>
+            </light>
+        </scene>
+        <sampler type="independent" count="256"/>
+    </integrator>
+</test>
