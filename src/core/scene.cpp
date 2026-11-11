@@ -62,7 +62,7 @@ public:
     LightSample sample(Sampler &rng) const {
         if (m_distribution.empty()) return LightSample::invalid();
         const auto cdf = rng.next();
-        const auto element = std::upper_bound(
+        auto element = std::upper_bound(
             m_distribution.begin(),
             m_distribution.end(),
             cdf,
@@ -70,6 +70,8 @@ public:
                 return value < element.cdf;
             }
         );
+        // a random number of exactly 1 would run past the last light
+        if (element == m_distribution.end()) --element;
         return {
             .light = element->light,
             .probability = element->probability,

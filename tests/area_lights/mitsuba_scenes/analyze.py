@@ -8,6 +8,10 @@ wrong constant factor from a wrong distance falloff from a missing shadow.
 Usage: python3 tests/area_lights/mitsuba_scenes/analyze.py arealight_rect
        (run after `build/yoldas tests/area_lights/arealight_rect.xml`,
         which writes tests/area_lights/arealight_rect_test.exr)
+
+       Any other test/reference pair can be given explicitly:
+       analyze.py <label> <test.exr> [<ref.exr>]
+       e.g. analyze.py step1_rect tests/sppm/step1/step1_rect_test.exr tests/sppm/step1/step1_rect_ref.exr
 """
 import os
 import sys
@@ -19,8 +23,15 @@ mi.set_variant("scalar_rgb")
 
 name = sys.argv[1]
 d = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ours = np.array(mi.Bitmap(os.path.join(d, f"{name}_test.exr")), copy=False)
-ref = np.array(mi.Bitmap(os.path.join(d, f"{name}_ref.exr")), copy=False)
+test_path = sys.argv[2] if len(sys.argv) > 2 else os.path.join(d, f"{name}_test.exr")
+if len(sys.argv) > 3:
+    ref_path = sys.argv[3]
+elif len(sys.argv) > 2:
+    ref_path = test_path.replace("_test.exr", "_ref.exr")
+else:
+    ref_path = os.path.join(d, f"{name}_ref.exr")
+ours = np.array(mi.Bitmap(test_path), copy=False)
+ref = np.array(mi.Bitmap(ref_path), copy=False)
 
 lo, lr = ours.mean(axis=2), ref.mean(axis=2)
 print(f"{name}: mean ours={lo.mean():.4f} ref={lr.mean():.4f} "

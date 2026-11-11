@@ -1,0 +1,100 @@
+<!--
+  SPPM test scene: Cornell box lit only by an invisible area light, so everything
+  except the small patch of ceiling above the lamp is lit indirectly.
+  The reference (sppm_box_ref.exr) comes from YOUR path tracer at 4096 spp:
+  see tests/sppm/tools/sppm_box_reference.xml.
+  Depth correspondence: sppm depth="N"  <->  pathtracer depth="N+1"
+  (photons contribute from their 2nd hit on; the path tracer's last vertex
+  is only used for emission).
+-->
+<test type="image" id="sppm_box_small" mae="0.03" me="0.01">
+    <integrator type="sppm" depth="5" photonsPerIteration="20000" alpha="0.6666667">
+        <scene id="scene">
+            <camera type="perspective" id="camera">
+                <integer name="width" value="64"/>
+                <integer name="height" value="64"/>
+                <string name="fovAxis" value="x"/>
+                <float name="fov" value="40"/>
+                <transform>
+                    <translate z="-4"/>
+                </transform>
+            </camera>
+
+            <bsdf type="diffuse" id="wall material">
+                <texture name="albedo" type="constant" value="0.8"/>
+            </bsdf>
+
+            <instance id="back">
+                <shape type="rectangle"/>
+                <ref id="wall material"/>
+                <transform>
+                    <scale z="-1"/>
+                    <translate z="1"/>
+                </transform>
+            </instance>
+            <instance id="floor">
+                <shape type="rectangle"/>
+                <ref id="wall material"/>
+                <transform>
+                    <rotate axis="1,0,0" angle="90"/>
+                    <translate y="1"/>
+                </transform>
+            </instance>
+            <instance id="ceiling">
+                <shape type="rectangle"/>
+                <ref id="wall material"/>
+                <transform>
+                    <rotate axis="1,0,0" angle="-90"/>
+                    <translate y="-1"/>
+                </transform>
+            </instance>
+            <instance id="left wall">
+                <shape type="rectangle"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.8,0.1,0.1"/>
+                </bsdf>
+                <transform>
+                    <rotate axis="0,1,0" angle="90"/>
+                    <translate x="-1"/>
+                </transform>
+            </instance>
+            <instance id="right wall">
+                <shape type="rectangle"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.1,0.8,0.1"/>
+                </bsdf>
+                <transform>
+                    <rotate axis="0,1,0" angle="-90"/>
+                    <translate x="1"/>
+                </transform>
+            </instance>
+
+            <instance>
+                <shape type="sphere"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.8"/>
+                </bsdf>
+                <transform>
+                    <scale value="0.5"/>
+                    <translate y="0.5" z="-0.1"/>
+                </transform>
+            </instance>
+
+            <!-- invisible area light just below the ceiling, facing down -->
+            <light type="area">
+                <instance>
+                    <shape type="rectangle"/>
+                    <emission type="lambertian">
+                        <texture name="emission" type="constant" value="12"/>
+                    </emission>
+                    <transform>
+                        <scale value="0.35"/>
+                        <rotate axis="1,0,0" angle="-90"/>
+                        <translate y="-0.98"/>
+                    </transform>
+                </instance>
+            </light>
+        </scene>
+        <sampler type="independent" count="64"/>
+    </integrator>
+</test>

@@ -1,36 +1,47 @@
 #include <lightwave.hpp>
 
-namespace lightwave {
+namespace lightwave
+{
 
-class PointLight final : public Light {
-    Point query_point;
-    Color power;
+    class PointLight final : public Light
+    {
+        Point query_point;
+        Color power;
 
-public:
-    PointLight(const Properties &properties) : Light(properties) {
-        query_point = (properties.get<Point>("position"));
-        power       = properties.get<Color>("power");
-    }
+    public:
+        PointLight(const Properties &properties) : Light(properties)
+        {
+            query_point = (properties.get<Point>("position"));
+            power = properties.get<Color>("power");
+        }
 
-    DirectLightSample sampleDirect(const Point &origin,
-                                   Sampler &rng) const override {
-        // NOT_IMPLEMENTED
-        Vector wi        = Vector(query_point - origin);
-        float vector_dot = wi.lengthSquared(); // wi.dot(wi);
-        Color intensity  = Inv4Pi * power / vector_dot;
-        Color weight     = intensity;
+        PhotonSample samplePhoton(Sampler &rng, const Bounds &sceneBounds) const override
+        {
+            // NOT_IMPLEMENTED
+            return PhotonSample{query_point, squareToUniformSphere(rng.next2D()), power};
+        }
 
-        return DirectLightSample{ wi.normalized(), weight, wi.length() };
-    }
+        DirectLightSample sampleDirect(const Point &origin,
+                                       Sampler &rng) const override
+        {
+            // NOT_IMPLEMENTED
+            Vector wi = Vector(query_point - origin);
+            float vector_dot = wi.lengthSquared(); // wi.dot(wi);
+            Color intensity = Inv4Pi * power / vector_dot;
+            Color weight = intensity;
 
-    bool canBeIntersected() const override { return false; }
+            return DirectLightSample{wi.normalized(), weight, wi.length()};
+        }
 
-    std::string toString() const override {
-        return tfm::format(
-            "PointLight[\n"
-            "]");
-    }
-};
+        bool canBeIntersected() const override { return false; }
+
+        std::string toString() const override
+        {
+            return tfm::format(
+                "PointLight[\n"
+                "]");
+        }
+    };
 
 } // namespace lightwave
 

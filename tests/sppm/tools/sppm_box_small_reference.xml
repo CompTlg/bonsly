@@ -1,0 +1,94 @@
+<!-- Generates tests/sppm/small/sppm_box_small_ref.exr from the path tracer. Run:
+       reference=1 build/yoldas tests/sppm/tools/sppm_box_small_reference.xml
+       mv tests/sppm/tools/sppm_box_small_ref.exr tests/sppm/small/sppm_box_small_ref.exr -->
+<test type="image" id="sppm_box_small">
+    <integrator type="pathtracer" depth="6">
+        <scene id="scene">
+            <camera type="perspective" id="camera">
+                <integer name="width" value="64"/>
+                <integer name="height" value="64"/>
+                <string name="fovAxis" value="x"/>
+                <float name="fov" value="40"/>
+                <transform>
+                    <translate z="-4"/>
+                </transform>
+            </camera>
+
+            <bsdf type="diffuse" id="wall material">
+                <texture name="albedo" type="constant" value="0.8"/>
+            </bsdf>
+
+            <instance id="back">
+                <shape type="rectangle"/>
+                <ref id="wall material"/>
+                <transform>
+                    <scale z="-1"/>
+                    <translate z="1"/>
+                </transform>
+            </instance>
+            <instance id="floor">
+                <shape type="rectangle"/>
+                <ref id="wall material"/>
+                <transform>
+                    <rotate axis="1,0,0" angle="90"/>
+                    <translate y="1"/>
+                </transform>
+            </instance>
+            <instance id="ceiling">
+                <shape type="rectangle"/>
+                <ref id="wall material"/>
+                <transform>
+                    <rotate axis="1,0,0" angle="-90"/>
+                    <translate y="-1"/>
+                </transform>
+            </instance>
+            <instance id="left wall">
+                <shape type="rectangle"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.8,0.1,0.1"/>
+                </bsdf>
+                <transform>
+                    <rotate axis="0,1,0" angle="90"/>
+                    <translate x="-1"/>
+                </transform>
+            </instance>
+            <instance id="right wall">
+                <shape type="rectangle"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.1,0.8,0.1"/>
+                </bsdf>
+                <transform>
+                    <rotate axis="0,1,0" angle="-90"/>
+                    <translate x="1"/>
+                </transform>
+            </instance>
+
+            <instance>
+                <shape type="sphere"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.8"/>
+                </bsdf>
+                <transform>
+                    <scale value="0.5"/>
+                    <translate y="0.5" z="-0.1"/>
+                </transform>
+            </instance>
+
+            <!-- invisible area light just below the ceiling, facing down -->
+            <light type="area">
+                <instance>
+                    <shape type="rectangle"/>
+                    <emission type="lambertian">
+                        <texture name="emission" type="constant" value="12"/>
+                    </emission>
+                    <transform>
+                        <scale value="0.35"/>
+                        <rotate axis="1,0,0" angle="-90"/>
+                        <translate y="-0.98"/>
+                    </transform>
+                </instance>
+            </light>
+        </scene>
+        <sampler type="independent" count="4096"/>
+    </integrator>
+</test>

@@ -1,0 +1,101 @@
+<!--
+  SPPM seam test: the corner where the green wall, the floor and the back wall meet, zoomed in so that
+  the seams fill a large part of the image (the test only compares the mean error and the mean absolute
+  error, so a thin line is invisible in a full view of the box).
+  A photon gather that treats every photon inside the search sphere alike is biased near an edge: photons
+  that landed on the neighbouring surface are counted although they are not incident light of this surface
+  (the pixels next to the green wall turn grey), and the part of the search disc that hangs past the edge
+  of the surface is counted as surface (dark line along the floor / back wall seam).
+  The reference comes from YOUR path tracer at 8192 spp: see tests/sppm/tools/seam_corner_reference.xml
+-->
+<test type="image" id="seam_corner" mae="0.0042" me="5e-4">
+    <integrator type="sppm" depth="5" photonsPerIteration="200000" alpha="0.6666667">
+        <scene id="scene">
+            <camera type="perspective" id="camera">
+                <integer name="width" value="128"/>
+                <integer name="height" value="128"/>
+                <string name="fovAxis" value="x"/>
+                <float name="fov" value="5"/>
+                <transform>
+                    <translate x="0.9" y="0.9" z="-4"/>
+                </transform>
+            </camera>
+
+            <bsdf type="diffuse" id="wall material">
+                <texture name="albedo" type="constant" value="0.8"/>
+            </bsdf>
+
+            <instance id="back">
+                <shape type="rectangle"/>
+                <ref id="wall material"/>
+                <transform>
+                    <scale z="-1"/>
+                    <translate z="1"/>
+                </transform>
+            </instance>
+            <instance id="floor">
+                <shape type="rectangle"/>
+                <ref id="wall material"/>
+                <transform>
+                    <rotate axis="1,0,0" angle="90"/>
+                    <translate y="1"/>
+                </transform>
+            </instance>
+            <instance id="ceiling">
+                <shape type="rectangle"/>
+                <ref id="wall material"/>
+                <transform>
+                    <rotate axis="1,0,0" angle="-90"/>
+                    <translate y="-1"/>
+                </transform>
+            </instance>
+            <instance id="left wall">
+                <shape type="rectangle"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.8,0.1,0.1"/>
+                </bsdf>
+                <transform>
+                    <rotate axis="0,1,0" angle="90"/>
+                    <translate x="-1"/>
+                </transform>
+            </instance>
+            <instance id="right wall">
+                <shape type="rectangle"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.1,0.8,0.1"/>
+                </bsdf>
+                <transform>
+                    <rotate axis="0,1,0" angle="-90"/>
+                    <translate x="1"/>
+                </transform>
+            </instance>
+
+            <instance>
+                <shape type="sphere"/>
+                <bsdf type="diffuse">
+                    <texture name="albedo" type="constant" value="0.8"/>
+                </bsdf>
+                <transform>
+                    <scale value="0.5"/>
+                    <translate y="0.5" z="-0.1"/>
+                </transform>
+            </instance>
+
+            <!-- invisible area light just below the ceiling, facing down -->
+            <light type="area">
+                <instance>
+                    <shape type="rectangle"/>
+                    <emission type="lambertian">
+                        <texture name="emission" type="constant" value="12"/>
+                    </emission>
+                    <transform>
+                        <scale value="0.35"/>
+                        <rotate axis="1,0,0" angle="-90"/>
+                        <translate y="-0.98"/>
+                    </transform>
+                </instance>
+            </light>
+        </scene>
+        <sampler type="halton" count="64"/>
+    </integrator>
+</test>

@@ -14,6 +14,22 @@ namespace lightwave
             m_instance->setLight(this);
         }
 
+        PhotonSample samplePhoton(Sampler &rng, const Bounds &sceneBounds) const override
+        {
+            AreaSample sample = m_instance->sampleArea(rng);
+            if (sample.pdf == 0)
+            {
+                return PhotonSample::invalid();
+            }
+            Vector local = squareToCosineHemisphere(rng.next2D()); // direction in the lamps local frame
+            Color Le = m_instance->emission()->evaluate(sample.uv, local).value;
+            Vector wi = sample.shadingFrame().toWorld(local); // direction in world frame
+            Color power = Le * Pi / sample.pdf;
+            // Le*cos / pdfpos * pdfdir -> pdfpos = s.pdf, pdfdir = cos/Pi -> cosines cancel
+
+            return PhotonSample{sample.position, wi.normalized(), power};
+        }
+
         DirectLightSample sampleDirect(const Point &origin,
                                        Sampler &rng) const override
         {
