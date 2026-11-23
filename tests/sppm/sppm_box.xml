@@ -8,7 +8,7 @@
   is only used for emission).
 -->
 <test type="image" id="sppm_box" mae="0.03" me="0.01">
-    <integrator type="sppm" depth="5" photonsPerIteration="200000" alpha="0.6666667">
+    <integrator type="sppm" depth="5" photonsPerIteration="200000" alpha="0.6666667" initialRadius="0.0">
         <scene id="scene">
             <camera type="perspective" id="camera">
                 <integer name="width" value="512"/>

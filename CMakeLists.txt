@@ -91,6 +91,8 @@ target_link_libraries(${MY_TARGET_NAME} PRIVATE miniz Threads::Threads)
 target_include_directories(${MY_TARGET_NAME} PUBLIC ${PROJECT_SOURCE_DIR}/include)
 target_compile_definitions(${MY_TARGET_NAME} PUBLIC "$<$<CONFIG:Debug>:LW_DEBUG>")
 target_compile_features(${MY_TARGET_NAME} PUBLIC cxx_std_20)
+# Directory with the precomputed spectrum coefficient tables (see src/spectral/uplifting.cpp)
+target_compile_definitions(${MY_TARGET_NAME} PRIVATE "LW_SPECTRAL_TABLE_DIR=\"${PROJECT_SOURCE_DIR}/data/spectral\"")
 
 # Ensure the target is directly in the build directory. This is the default on Linux/Mac, but not Windows.
 # Pro Tip: You can commit this out to have Debug and Release builds at the same time on Windows. This will prevent the default parameters to work though.
